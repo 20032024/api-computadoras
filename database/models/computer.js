@@ -18,6 +18,7 @@ module.exports = (sequelize, DataTypes) => {
     versionSoftware: DataTypes.STRING,
     nameComputer: DataTypes.STRING,
     processor: DataTypes.STRING,
+    portatil: DataTypes.BOOLEAN
   }, {
     sequelize,
     modelName: 'Computer',
