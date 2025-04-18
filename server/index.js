@@ -8,9 +8,6 @@ server.options('*', cors());
 
 server.use(express.json());
 
-server.use('/api', routes)
-  server.get('/', (req, res) => {
-  res.send('API de computadoras funcionando');
-});
+server.use('/api', routes);
 
 module.exports = server;
