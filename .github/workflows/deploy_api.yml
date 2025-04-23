@@ -19,6 +19,7 @@ jobs:
       - run: cat .env
  #     - run: npm install
  #     - run: npm install -g sequelize-cli@6.2.0 
+ 
 
  #     - run: sequelize db:migrate
       - run: docker build -t anderluuna/pg-restapi-computers:${{github.sha}} .
